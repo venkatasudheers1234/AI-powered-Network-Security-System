@@ -30,31 +30,49 @@ The project uses a modular approach for data processing, model training, and dep
 🔧 Components
 
 📥 Data Ingestion
+
 Script: push_data.py
 Function: Reads phishing data from CSV, converts it to JSON format, and stores it in MongoDB.
+
 🛡️ Data Validation
+
 Script: data_validation.py
 Function: Ensures dataset quality, performs schema validation, and detects dataset drift.
+
 🔄 Data Transformation
+
 Script: data_transformation.py
 Function: Applies KNN imputer for handling missing values and prepares datasets for ML training.
+
 🧑‍💻 Model Training
+
 Script: model_trainer.py
 Function: Trains multiple machine learning models, evaluates them, and tracks experiments using MLflow.
+
 🚀 Model Deployment
+
 Script: app.py
 Function: Deploys the trained model using FastAPI for serving predictions on new data.
+
 🔄 CI/CD Pipeline
 Workflow File: .github/workflows/main.yml
 Function: Automates deployment using GitHub Actions, Docker, AWS ECR, and EC2 for continuous integration and deployment.
 
 
-🛠 Technologies Used
+🛠 Technologies Used:
+
 🐍 Python: Programming language used for the project.
+
 📊 Machine Learning Libraries: Pandas, NumPy, Scikit-learn for data processing and model training.
+
 🗃️ MongoDB: NoSQL database for storing phishing data.
+
 ⚡ FastAPI: Framework used for building APIs to serve predictions.
+
 🐳 Docker: Containerization for easy deployment of the model.
+
 🔧 GitHub Actions: Automates CI/CD workflow.
+
 ☁️ AWS: EC2 for deployment, ECR for storing Docker images, and S3 for cloud storage.
+
 📈 MLflow: For experiment tracking and model management.
