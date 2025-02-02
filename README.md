@@ -1,7 +1,9 @@
 🚀 Network Phishing Website Detection Using Machine Learning and MLOps
+
 This project focuses on detecting phishing websites using Machine Learning (ML) and MLOps. It includes a complete deployment pipeline on AWS EC2 and ECR, demonstrating the end-to-end workflow of building and deploying a machine learning model for phishing website detection.
 
 📖 Table of Contents
+
 •	Project Overview
 •	Architecture
 •	Setup Instructions
@@ -15,13 +17,16 @@ This project focuses on detecting phishing websites using Machine Learning (ML) 
 •	Technologies Used
 
 🛠 Project Overview
+
 This project aims to create a robust pipeline for detecting phishing websites using machine learning. It covers essential aspects of MLOps, such as data ingestion, validation, transformation, model training, deployment, and continuous integration/continuous deployment (CI/CD). The complete deployment pipeline is implemented on AWS EC2 and ECR.
 
 
 🏗️ Architecture
+
 The project uses a modular approach for data processing, model training, and deployment. The architecture includes components such as data ingestion, validation, transformation, and model deployment with automated CI/CD integration.
 
 🔧 Components
+
 📥 Data Ingestion
 Script: push_data.py
 Function: Reads phishing data from CSV, converts it to JSON format, and stores it in MongoDB.
