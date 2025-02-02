@@ -5,8 +5,9 @@ This project focuses on detecting phishing websites using Machine Learning (ML) 
 📖 Table of Contents
 
 •	Project Overview
+
 •	Architecture
-•	Setup Instructions
+
 •	Components
   - Data Ingestion
   - Data Validation
@@ -14,6 +15,7 @@ This project focuses on detecting phishing websites using Machine Learning (ML) 
   - Model Training
   - Model Deployment
   - CI/CD Pipeline
+    
 •	Technologies Used
 
 🛠 Project Overview
